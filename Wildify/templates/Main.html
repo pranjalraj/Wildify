@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Anima Artificial Intelligence Project</title>
+    </head>
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Asap Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+    
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+        }
+        .s
+        {
+            width: 100%;
+            background-color:#2e2e2c;
+            height: 50px;
+            border-radius: 4px;
+            position: relative;;
+            color: rgb(5, 146, 5);
+            font-family: 'Asap Condensed';font-size: 19px;
+            display: flex;
+            align-items: center;
+        
+        }
+
+        body{
+
+ 
+    
+         
+        
+          animation-name: animate;
+          animation-duration: 24s;
+          animation-timing-function: ease-in-out;
+          animation-iteration-count: infinite;
+          background-size: cover;       
+        
+        
+         }
+     
+     @keyframes animate {
+         0%,100%{
+             background-image: url("/static/images/13.png")
+         }
+         25%{
+             background-image:url("/static/images/7.png")
+         }
+         50%{
+             background-image:url("/static/images/29p.png")
+         }
+         75%{
+             background-image:url("/static/images/22p.png")
+         }
+     }
+ 
+    
+    #t
+    {
+        float: left;
+        letter-spacing: 3px;
+    font-weight: 600;
+    margin-left: 10px;
+
+    
+    }
+    #g
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: 5px;
+        letter-spacing: 2px;
+        word-spacing: 35px;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(5, 146, 5) ;
+      }
+      a:hover {
+        color: rgb(255, 240, 105);
+      }
+      .img
+      {
+        margin-right: 52px;
+      }
+      #e
+      {
+        margin-right: 50px;
+        
+        background-color:rgba(0, 0, 0, 0.966);
+  border: none;
+  border-radius: 17px;
+
+      }
+      
+
+      
+      #ee
+      {
+        margin-right: 15px;
+        letter-spacing: 2px;
+    
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration:#2e2e2c;
+        display: block;
+        font-family: 'Bree Serif';font-size: 20px;
+        font-family: 'Bilbo Swash Caps';font-size: 22px;
+        font-weight: bold;
+      }
+      .dropbtn{
+
+        background-color: black;
+        border: none;
+        color: rgb(5, 146, 5);
+        font-family: 'Asap Condensed';
+        padding: 14px;
+        font-size: 19px;
+        border: none;
+        border-radius: 12px;
+        letter-spacing: 2px;
+        
+      }
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      .xx
+      {
+        font-family:Cormorant SC;
+        font-size: 54px;
+        font-weight: 900;
+        margin-left: 124px;
+        letter-spacing: 2px;
+        word-spacing: 1.5px;
+        color: aliceblue;
+      }
+      #r
+      {
+        font-family:Arvo;
+        margin-left: 124px;
+        letter-spacing: 1.5px;
+        
+      }
+.result
+{
+  width: 270px;
+    margin-left: 124px;
+    background-color: #ff672f;
+    opacity: 0.6;
+    color: black;
+    font-size: 30px;
+    font-family: 'barlow';
+    padding: 4px;
+    border-radius: 8px;
+    border: solid rgb(29, 28, 28);  
+      box-shadow: 5px 8px #222121;
+
+}
+
+
+
+#submit
+{
+  background-color: orangered;
+    color: aliceblue;
+    border-radius:0px 2px 2px 0px;
+    border: none;
+    width: 80px;
+    height: 27px;
+    letter-spacing: 3px;
+
+
+
+}
+#file
+{
+  background-color: orangered;
+    color: aliceblue;
+    width: 186px;
+    border-radius:0px 2px 2px 0px;
+  
+}
+#dkj
+{
+  float: left;
+}
+    </style>
+    
+    <body>
+        <div class="s">
+            <span id="t">Anima Artificial Intelligence</span>
+            <span id="g"><a href="#">Home</a></span>
+            <img class="img" src="/static/images/home.jpg" width="30px" height="30px">
+            <span id="e"><div class="dropdown">
+              <button class="dropbtn">
+                <a href="/contrib">Creators</a></button>
+              <div class="dropdown-content">
+                <a href="/">AI Project:</a>
+                <a href="/">Antony Jose</a>
+                <a href="/">Saurabh Swaraj</a>
+              </div>
+            </div></span>
+            <span id="ee"><a href="/model">Model</a>
+            </span>
+            
+            
+
+
+
+        </div><br><br>
+        <div class="xx"><b>File Upload</b></div><br>
+        <form id="r" action = "/" method = "POST" enctype = "multipart/form-data">
+        <p><input id="file" type = "file" name = "file"></p><br>
+        <p><img id="dkj" src="/static/images/jj12.png" width="27px" height="27px" ><input id="submit" type="submit" value="Submit"></p>
+        </form>
+        <br>
+        <div class="result">
+            {% if result %}
+                Animal in given Image:<br>
+                {{ result }}<br>
+                Confidence:<br>
+                {{ chance }}
+            {% endif %}
+        </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

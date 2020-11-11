@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+</head>
+
+<style>
+    #h
+    {
+      font-size: 50px;
+      font-family:'Alegreya SC';
+      text-align: center;
+      margin-top: -1px;
+    }
+    #gg
+    {
+      font-size: 25px;
+      font-family: 'Alegreya SC';
+    }
+    a
+    {
+      text-decoration: none;
+     
+    }
+    #igg
+    {
+      margin-top: -5px;
+      margin-left: 10px;
+    }
+    #cd
+    {
+        font-family:'Barlow';
+        font-size:18px ;
+    }
+    body{
+
+ 
+        
+            
+      background-color: darkgoldenrod;   
+    
+    
+     }
+
+
+</style>
+<body>
+  {% extends "base.html" %}
+  {% block content %}
+  
+  
+  <div id="cd">
+    <p id="h">Model</p>
+    <span>The objective of this project is to identify different animals using AI.</span><br>
+
+<span>The dataset used is the Animals 10 dataset that can be found at this URL:<a href="https://www.kaggle.com/alessiocorrado99/animals10"> "www.kaggle.com"</a></span><br>
+<span>The AI is a CNN made using tensorflow.</span> 
+
+<div>
+  <span id="gg">Model Summary-</span><br><br>
+  <img id="igg" src="/static/images/vvd.png" height="310px" width="690px"></div>
+  
+<span>Total params: 2,077,130</span><br>                                         
+<span>Trainable params: 2,077,130</span><br>                        
+Non-trainable params: 0
+
+
+  </div>
+
+
+  {% endblock %}
+</body>
+</html>
